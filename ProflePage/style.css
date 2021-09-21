@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: cursive;
+    flex: wrap;
+}
+.dflexalign {
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rightnavbar{
+    margin-left: 250px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    width: 300px;
+    justify-content: space-around;
+}
+.button {
+    margin-right: 250px;
+    background-color:rgb(23, 162, 184);
+    color: white;
+}
+.mainpage{
+    justify-content: center;
+    height: 600px;
+
+}
+.info, .connection{
+    height: 600px;
+}
+.info{
+    width: 650px;
+    margin-right: 30px;
+}
+.connection{
+    width: 300px;
+}
+#name {
+    height: 350px;
+}
+#education{
+    height: 200px;
+}
+#requests{
+    height: 160px;
+}
+#list{
+    height: 280px;
+}
+.boxes{
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 30px;
+}
+.userprofile{
+    background-color: #17a2b8;
+    height: 100px;
+}
+.usercircle{
+    height: 90px;
+    margin: 50px 30px;
+    border-radius: 50%;
+    border-color: lightgray;
+    border-style: solid;
+}
+.circlemap{
+    height: 20px;
+}
+h1, h2, h3, h4, p, a{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#name h1{
+    margin-top: 50px;
+}
+.topbar {
+    height: 30px;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    color: white;
+}
+.topbar h3{
+    margin: 20px;
+}
+#education h2{
+    margin-top: 20px;
+}
+.date{
+    color: gray;
+}
+.numbers{
+    font-weight: bold;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0px 10px;
+    color: black;
+    background-color: lightgray;
+}
+.todd{
+    width: 300px;
+    justify-content: space-between;
+    height: 50px;
+    font-weight: bold;
+}
+.todd1, .todd2 {
+    margin: 25px;
+}
+.todd img{
+    margin-right: 7px;
+}
+.connectnames{
+    flex-direction: column-reverse;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0px 0px 0px 50px;
+}
+.connect img, .user-circle, .status{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;  
+}
+.connect{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.bar{
+    border-color: lightgray;
+    border-top-style: solid;
+    height: 50px;
+    width: 298px;
+}
